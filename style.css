@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    width: 100%;
+  }
+
+  .mainPage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    border-right: 5px solid gray;
+  }
+
+  .secondaryPage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* text-align: center; */
+    width: 50%;
+  }
+  
+  .show {
+    opacity: 1;
+    transition: opacity 2000ms;
+  }
+  
+  .fadeInText {
+    opacity: 0;
+  }
+  
+  button {
+    color: #3d3d3d;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f3f3f3;
+  }
+  
+  .githubTitle{
+    align-self: center;
+  }
+
+  .searchInnput{
+    width: 50%;
+    margin-left: 2vw;
+    /* align-self: center; */
+  }
+
+  .searchInnputLabel{
+    margin-left: 2vw;
+  }
+  

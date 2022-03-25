@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainPage">
+    <header>
+        <h1>Javascript Practice Page</h1>
+    </header>
+        <section>
+            <h2 class="fadeInText" id="fadeInText">Hello World! :)</h2>
+            <h3>Welcome to this Javascript practice page</h3>
+            <p id="textContainer"></p>
+            <button id="alertBtn">Show new joke</button>
+        </section>
+    </div>
+    <div class="secondaryPage">
+        <h2 class="githubTitle">Github API Results</h2>
+        <form>
+            <label for="searchGithubRepo" class="searchInnputLabel">Search for:</label>
+            <input type="text" name="search" id="searchGithubRepo" class="searchInnput">
+            <button id="submitButton" type="button">Submit</button>
+        </form>
+        <ul id="gihubApiResults"></ul>
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>
