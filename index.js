@@ -53,3 +53,4 @@ const searchInputValue = () => {
 
 
 submitBtn.addEventListener("click", searchInputValue);
+

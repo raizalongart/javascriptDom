@@ -28,3 +28,4 @@ for(let i=1;i<matrix.length;i++) {
         tableCells.appendChild(tableCellsText);
     }
 };
+
