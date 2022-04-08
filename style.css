@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* text-align: center; */
     width: 50%;
   }
   
@@ -44,7 +43,6 @@ body {
   .searchInnput{
     width: 50%;
     margin-left: 2vw;
-    /* align-self: center; */
   }
 
   .searchInnputLabel{
